@@ -1,0 +1,32 @@
+body {
+  background: #ccc;
+}
+
+@keyframes letterspacing {
+  0% {
+    letter-spacing: -6rem;
+    filter: blur(1rem);
+  }
+  40% {
+    filter: blur(.3rem);
+  }
+  80% {
+    letter-spacing: .5rem;
+    filter: blur(0rem);
+  }
+}
+
+.animate {
+  h1 {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 6rem;
+    line-height: 1;
+    animation: letterspacing 1s 9 alternate ease-in-out;
+    display: block;
+    letter-spacing: .5rem;
+  }
+}
+

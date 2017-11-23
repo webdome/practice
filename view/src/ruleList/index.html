@@ -1,0 +1,14 @@
+<input type="text" id="name" placeholder="请输入名称"><input type="text" id="des" placeholder="请输入描述">
+<button id="add">添加</button>
+<div>
+  <input type="file" name="" id="files">
+</div>
+<button id="upload">上传</button>
+<ul>
+  <% _.each(list,function(item,index){ %>
+    <li>
+      <span><%= item.name %></span>
+      <span><%= item.des %></span>
+    </li>
+    <% }) %>
+</ul>
