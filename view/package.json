@@ -15,7 +15,8 @@
   "dependencies": {
     "art-template": "^4.12.2",
     "jquery": "^1.11.3",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "mediator-js": "^0.9.9"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
