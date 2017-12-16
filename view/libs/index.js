@@ -7,5 +7,5 @@ const utils = require('./utils')
 
 module.exports = {
   mediator,
-
+  utils
 }
