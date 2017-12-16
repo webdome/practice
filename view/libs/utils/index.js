@@ -664,7 +664,6 @@ function throttle(delay, noTrailing, callback, debounceMode) {
  *
  * @return {Function} 新的防抖函数。
  */
-var throttle = require('./throttle');
 
 function debounce(delay, atBegin, callback) {
   return callback === undefined ? throttle(delay, atBegin, false) : throttle(delay, callback, atBegin !== false);
@@ -725,4 +724,3 @@ function isElementInViewport(el) {
     rect.right(window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
   );
 }
-

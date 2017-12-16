@@ -1,7 +1,9 @@
-var Mediator = require("./mediator/mediator.js");
-var mediator = new Mediator();
+require('./view')
 
-require('./view.js')
+const Mediator = require("./mediator/mediator.js");
+const mediator = new Mediator();
+
+const utils = require('./utils')
 
 module.exports = {
   mediator,
