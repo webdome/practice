@@ -670,3 +670,59 @@ function debounce(delay, atBegin, callback) {
   return callback === undefined ? throttle(delay, atBegin, false) : throttle(delay, callback, atBegin !== false);
 }
 
+
+//以一个对象的x和y属性的方式返回滚动条的偏移量
+function getScrollOffsets(w) { //使用指定的窗口，如果不带参数则使用当前窗口
+  w = w || window; //除了IE 8及更早的版本以外，其他浏览器都能用
+  if (w.pageXOffset != null) return {
+    x: w.pageXOffset,
+    y: w.pageYOffset
+  }; //对标准模式下的IE（或任何浏览器）
+  var d = w.document;
+  if (document.compatMode == "CSS1Compat")
+    return {
+      x: d.documentElement.scrollLeft,
+      y: d.documentElement.scrollTop
+    }; //对怪异模式下的浏览器
+  return {
+    x: d.body.scrollLeft,
+    y: d.body.scrollTop
+  };
+}
+
+//作为一个对象的w和h属性返回视口的尺寸
+function getViewportSize(w) { //使用指定的窗口，如果不带参数则使用当前窗口
+  w = w || window; //除了IE 8及更早的版本以外，其他浏览器都能用
+  if (w.innerWidth != null) return {
+    w: w.innerWidth,
+    h: w.innerHeight
+  }; //对标准模式下的IE（或任何浏览器）
+  var d = w.document;
+  if (document.compatMode == "CSS1Compat")
+    return {
+      w: d.documentElement.clientWidth,
+      h: d.documentElement.clientHeight
+    }; //对怪异模式下的浏览器
+  return {
+    w: d.body.clientWidth,
+    h: d.body.clientWidth
+  };
+}
+// 检查元素是否在观察窗
+function isElementInViewport(el) {
+
+  //special bonus for those using jQuery
+  if (typeof jQuery === "function" && el instanceof jQuery) {
+    el = el[0];
+  }
+
+  var rect = el.getBoundingClientRect();
+
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom(window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
+    rect.right(window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+  );
+}
+

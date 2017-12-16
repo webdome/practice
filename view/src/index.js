@@ -1,9 +1,4 @@
-require('../libs/view.js')
-
-window.microkid = {}
-// var Mediator = require("mediator-js");
-var Mediator = require("../libs/mediator/mediator.js");
-window.microkid.mediator = new Mediator();
+window.microkid = require('../libs')
 
 // require('./view')
 
