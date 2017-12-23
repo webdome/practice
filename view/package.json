@@ -7,6 +7,7 @@
     "dev": "webpack-dev-server --content-base dist/",
     "build": "webpack",
     "watch": "webpack --watch",
+    "start": "webpack-dashboard -- webpack-dev-server -d --hot --config webpack.config.js --watch",
     "test": "webpack --profile --json > stats.json"
   },
   "keywords": [],
@@ -37,6 +38,7 @@
     "uglifyjs-webpack-plugin": "^1.0.1",
     "url-loader": "^0.6.2",
     "webpack": "^3.8.1",
+    "webpack-dashboard": "^1.0.2",
     "webpack-dev-server": "^2.9.4"
   }
 }

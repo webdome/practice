@@ -3,6 +3,7 @@ const CleanPlugin = require('clean-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
+// var DashboardPlugin = require('webpack-dashboard/plugin')
 
 const path = require('path')
 var ROOT_PATH = path.resolve(__dirname)
@@ -29,6 +30,8 @@ var plugins = [
   //   children: true, // 在所有被拆分的代码块中寻找共同的依赖关系
   //   minChunks: 2, // 在被提取之前，一个依赖要出现多少次（也就是一个依赖会在遍历所有拆分的代码块时被重复发现多少次）
   // })
+  // webpack-dashboard
+  // new DashboardPlugin()
 ];
 
 if (true) {
