@@ -4,12 +4,19 @@ new view({
     template: require('./index.html'),
     data:{
         text: 'hello world',
-        tel: '13721083318'
+        tel: '13721083318',
     },
     events: {
         'click #get'($this,event){
             console.log(`text= ${this.text}`);
             console.log(`tel= ${this.tel}`);
+            console.log(`para= ${this.para}`);
+            this.$repaint();
+        }
+    },
+    computed: {
+        para(){
+            return this.text+this.tel
         }
     }
 })

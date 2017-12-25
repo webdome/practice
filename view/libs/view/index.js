@@ -37,7 +37,7 @@ function view(options) {
     var inputEventMap = {};
     var target = template.match(/value=["']<%=[\s0-9a-z_$]*%>["']/gi);
     // console.log(target);
-    
+
     $.each(target, function (i, value) {
       var data = /<%=(.*)%>/gi.exec(value)
       if (data) {
@@ -54,6 +54,28 @@ function view(options) {
       })
     }
   }
+  // 计算属性 目前只有首次计算 以及repaint时更新
+  this.$extractComputed = () => {
+    // console.log(this.$options.computed);
+    for (let key in this.$options.computed) {
+      // console.log(key);
+      // console.log(this.$options.data[key]);
+      if (this.$options.data[key]) {
+        throw new SyntaxError('Identifier ' + key + ' has already been declared');
+      } else {
+        this.$options.data[key] = this.$options.computed[key].call(this);
+        this[key] = this.$options.data[key];
+      }
+    }
+  }
+
+  this.$computed = ()=>{
+    for (let key in this.$options.computed) {
+      this.$options.data[key] = this.$options.computed[key].call(this);
+      this[key] = this.$options.data[key];
+    }
+  }
+
 
   this.$checkDate = () => {
     for (let key in this.$options.data) {
@@ -116,6 +138,7 @@ function view(options) {
 
 
   this.$repaint = () => {
+    this.$computed();
     this.$checkDate();
     this.$render();
     // DOM更新完成
@@ -130,6 +153,7 @@ function view(options) {
   this.$dataInit();
   this.$methodsInit();
   this.$eventsInit();
+  this.$extractComputed();
   this.$extractInputEvent();
   // DOM装载
   this.$render();
