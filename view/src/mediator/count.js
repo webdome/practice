@@ -8,7 +8,7 @@ new view({
     microkid.mediator.on("appReady", (time)=> {
       this.count = `app is ready in time ${new Date().getTime()-time}ms`;
       this.$repaint();
-      // microkid.mediator.remove('appReady')
+      // microkid.mediator.off('appReady')
     })
   }
 })
