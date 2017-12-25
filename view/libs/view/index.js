@@ -4,55 +4,83 @@ var _ = require('underscore')
 // var ajax = require('./ajax');
 
 function view(options) {
-  if(!options){
+  if (!options) {
     throw new TypeError('Failed to construct "view": 1 argument required, but only 0 present');
   }
+
   var _this = this;
-  
+
   this.$options = options || {};
   this.$el = $(options.el);
 
-  this.$isMounted = false;
-  this.$created = options.created || function(){};
-  this.$mounted = options.mounted || function(){};
-  this.$updated = options.updated || function(){};
+  // this.$isMounted = false;
+  this.$created = options.created || function () {};
+  this.$mounted = options.mounted || function () {};
+  this.$updated = options.updated || function () {};
 
   // this.$get = ajax.get;
   // this.$post = ajax.post;
 
-  this.$render = ()=> {
+  // $.extend(this.$options.data, this.$options.listen)
+
+
+  this.$render = () => {
     var compiled = _.template(this.$options.template);
     var html = compiled(this.$options.data);
     // var html = _.render(this.$options.template, this.$options.data);
     this.$el.html(html);
   }
 
-  this.$checkDate = ()=> {
-    for (var key in this.$options.data) {
+  // 提取input绑定的值 实现v到M的绑定
+  this.$extractInputEvent = () => {
+    var template = this.$options.template;
+    var inputEventMap = {};
+    var target = template.match(/value=["']<%=[\s0-9a-z_$]*%>["']/gi);
+    // console.log(target);
+    
+    $.each(target, function (i, value) {
+      var data = /<%=(.*)%>/gi.exec(value)
+      if (data) {
+        var data = data[1].trim();
+        inputEventMap[data] = data;
+        template = template.replace(value, value + ' data-model="' + data + '"')
+      }
+    })
+    this.$options.template = template;
+    // 绑定输入
+    for (let key in inputEventMap) {
+      $(this.$el).on('input', `[data-model="${inputEventMap[key]}"]`, function (event) {
+        _this[key] = this.value;
+      })
+    }
+  }
+
+  this.$checkDate = () => {
+    for (let key in this.$options.data) {
       this.$options.data[key] = this[key];
     }
   }
 
-  this.$eventsInit = ()=> {
-    for (var key in this.$options.events) {
-      var fn = this.$options.events[key];
-      var type = key.split(" ")[0];
-      var elem = key.split(" ")[1];
+  this.$eventsInit = () => {
+    for (let key in this.$options.events) {
+      let fn = this.$options.events[key];
+      let type = key.split(" ")[0];
+      let elem = key.split(" ")[1];
       $(this.$el).on(type, elem, (function (fn) {
         return function (event) {
-          fn.call(_this, event);
+          fn.call(_this, $(elem), event);
         }
       })(fn));
     }
   }
 
-  this.$dataInit = ()=> {
+  this.$dataInit = () => {
     for (let key in this.$options.data) {
       this[key] = this.$options.data[key];
     }
   }
 
-  this.$methodsInit = ()=> {
+  this.$methodsInit = () => {
     for (let key in this.$options.methods) {
       if (this[key]) {
         throw new SyntaxError('Identifier ' + key + ' has already been declared');
@@ -61,7 +89,7 @@ function view(options) {
     }
   }
 
-  this.$DOMObserver = () => {
+  /* this.$DOMObserver = () => {
     var MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
     var mutationObserverSupport = !!MutationObserver;
     if (mutationObserverSupport) {
@@ -84,10 +112,10 @@ function view(options) {
         this.$updated();
       }, 0);
     }
-  }
+  } */
 
 
-  this.$repaint = ()=> {
+  this.$repaint = () => {
     this.$checkDate();
     this.$render();
     // DOM更新完成
@@ -96,20 +124,21 @@ function view(options) {
     }, 0);
   }
 
-  // 开始创建
+  // 开始创建 回调
   this.$created();
   // 初始化数据 方法 事件
   this.$dataInit();
   this.$methodsInit();
   this.$eventsInit();
+  this.$extractInputEvent();
   // DOM装载
   this.$render();
   // DOM装载完成
   setTimeout(() => {
-    this.$isMounted = true;
+    // this.$isMounted = true;
     this.$mounted();
   }, 0);
-  
+
 }
 window.$ = $;
 window.view = view;
