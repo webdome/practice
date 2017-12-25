@@ -16,8 +16,9 @@
   "dependencies": {
     "art-template": "^4.12.2",
     "jquery": "^1.11.3",
+    "mediator-js": "^0.9.9",
     "underscore": "^1.8.3",
-    "mediator-js": "^0.9.9"
+    "vue": "^2.5.13"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
