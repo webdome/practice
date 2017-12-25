@@ -7,6 +7,6 @@ new view({
     list: [1, 2, 3, 4, 5]
   },
   mounted() {
-    microkid.mediator.publish("appReady",new Date().getTime());
+    microkid.mediator.emit("appReady",new Date().getTime());
   }
 })
