@@ -52,9 +52,6 @@ var newjs = beautify.js_beautify(`new view({
 try {
     fs.mkdirSync(__dirname + '/dist')
 } catch (error) {}
-// 写入
 fs.writeFileSync(__dirname + '/dist/app.html', newhtml)
-// 写入
 fs.writeFileSync(__dirname + '/dist/app.js', newjs)
-// 写入
 fs.writeFileSync(__dirname + '/dist/app.scss', newcss)
