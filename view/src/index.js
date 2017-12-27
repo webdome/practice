@@ -6,6 +6,8 @@ window.microkid = require('../libs')
 
 // require('./ruleList')
 
-require('./mediator')
+// require('./mediator')
 
 // require('./event')
+
+require('./mongodb')

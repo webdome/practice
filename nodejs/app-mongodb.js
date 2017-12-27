@@ -83,13 +83,27 @@ var updateRestaurants = function (db, callback) {
     });
 }
 
-var removeRestaurants = function(db, callback) {
+var removeRestaurants = function (db, callback) {
     var collection = db.collection('restaurants');
-    var where={restaurant_id:{"$gt":10}};
-    collection.remove(where,function(err, result) {
-        assert.equal(err,null);
+    var where = {
+        restaurant_id: {
+            "$gt": 10
+        }
+    };
+    collection.remove(where, function (err, result) {
+        assert.equal(err, null);
         callback(result);
     });
+}
+
+// mongodb connect Promise
+function MongoConnect() {
+    return new Promise((resolve, reject) => {
+        MongoClient.connect(url, (err, db) => {
+            if (err) reject(err)
+            resolve(db)
+        })
+    })
 }
 
 app.get('/', function (req, res) {
@@ -97,13 +111,22 @@ app.get('/', function (req, res) {
 })
 
 app.get('/insert', function (req, res) {
-    MongoClient.connect(url, function (err, db) {
-        assert.equal(null, err);
+    MongoConnect().then((db) => {
         insertDocument(db, function (result) {
             db.close();
             res.send(result);
         });
-    });
+    }).catch((err) => {
+        assert.equal(null, err);
+    })
+
+    // MongoClient.connect(url, function (err, db) {
+    //     assert.equal(null, err);
+    //     insertDocument(db, function (result) {
+    //         db.close();
+    //         res.send(result);
+    //     });
+    // });
 });
 
 app.get('/select', function (req, res) {
@@ -126,7 +149,7 @@ app.get('/update', function (req, res) {
     });
 });
 
-app.get('/remove',function(req,res){
+app.get('/remove', function (req, res) {
     MongoClient.connect(url, function (err, db) {
         assert.equal(null, err);
         removeRestaurants(db, function (result) {

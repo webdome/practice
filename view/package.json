@@ -16,9 +16,14 @@
   "dependencies": {
     "art-template": "^4.12.2",
     "jquery": "^1.11.3",
+    "js-beautify": "^1.7.5",
     "mediator-js": "^0.9.9",
+    "pseudomap": "^1.0.2",
     "underscore": "^1.8.3",
-    "vue": "^2.5.13"
+    "vue": "^2.5.13",
+    "vue-loader": "^13.6.1",
+    "vue-template-compiler": "^2.5.13",
+    "yallist": "^3.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
