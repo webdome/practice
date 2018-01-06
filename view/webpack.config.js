@@ -4,7 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 // var DashboardPlugin = require('webpack-dashboard/plugin')
-
+require('./build/watcher.js')
 const path = require('path')
 var ROOT_PATH = path.resolve(__dirname)
 var BUILDS_PATH = path.resolve(ROOT_PATH, 'dist')

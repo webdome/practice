@@ -10,4 +10,6 @@ window.microkid = require('../libs')
 
 // require('./event')
 
-require('./mongodb')
+// require('./mongodb')
+
+require('./vue')

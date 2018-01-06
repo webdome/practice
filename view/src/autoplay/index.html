@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DEMO</title>
+</head>
+
+<body>
+    <img src="about:blank" alt>
+    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+
+    <input type="file" accept="video/*" id="video">
+    <div id="videos"></div>
+    <input type="file" accept="image/*" id="image">
+    <div id="images"></div>
+  <script>
+    /* var ifr = document.createElement("iframe");
+    ifr.setAttribute('src', "./test.mp3");
+    ifr.setAttribute('width', '1px');
+    ifr.setAttribute('height', '1px');
+    ifr.setAttribute('scrolling', 'no');
+    ifr.style.border = "0px";
+    document.body.appendChild(ifr); */
+    var video = document.getElementById('video');
+    var videos = document.getElementById('videos');
+    video.onchange = function(){
+      console.log(video.files);
+      videos.innerText = video.files[0].size;
+    }
+    var image = document.getElementById('image');
+    var images = document.getElementById('images');
+    image.onchange = function(){
+      console.log(image.files);
+      images.innerText = image.files[0].size;
+    }
+  </script>
+</body>
+
+</html>
