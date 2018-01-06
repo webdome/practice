@@ -1,0 +1,110 @@
+2018-01-06 10:26:51,873 WARN 8212 [-/127.0.0.1/-/44ms GET /news] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=us-ascii\"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n"), GET http:///json/topstories.json 404 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:80:":1},"requests":{}})
+headers: {"content-type":"text/html; charset=us-ascii","server":"Microsoft-HTTPAPI/2.0","date":"Sat, 06 Jan 2018 02:26:51 GMT","connection":"close","content-length":"315"}
+headers: {"content-type":"text/html; charset=us-ascii","server":"Microsoft-HTTPAPI/2.0","date":"Sat, 06 Jan 2018 02:26:51 GMT","connection":"close","content-length":"315"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:913:24)
+    at e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:692:23
+    at decodeContent (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:532:14)
+    at IncomingMessage.<anonymous> (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:673:7)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'JSONResponseFormatError'
+data: '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n'
+path: '/json/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: 404
+headers: { 'content-type': 'text/html; charset=us-ascii', server: 'Microsoft-HTTPAPI/2.0', date: 'Sat, 06 Jan 2018 02:26:51 GMT', connection: 'close', 'content-length': '315' }
+res: { status: 404, statusCode: 404, headers:  { 'content-type': 'text/html; charset=us-ascii', server: 'Microsoft-HTTPAPI/2.0', date: 'Sat, 06 Jan 2018 02:26:51 GMT', connection: 'close', 'content-length': '315' }, size: 315, aborted: false, rt: 29, keepAliveSocket: false, data: '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n', requestUrls: [ 'http:///json/topstories.json' ], timing: null, remoteAddress: '127.0.0.1', remotePort: 80 }
+pid: 8212
+hostname: PC-20170725NNPX
+
+2018-01-06 10:28:57,439 WARN 8212 [-/127.0.0.1/-/5ms GET /news] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=us-ascii\"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n"), GET http:///json/topstories.json 404 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:80:":1},"requests":{}})
+headers: {"content-type":"text/html; charset=us-ascii","server":"Microsoft-HTTPAPI/2.0","date":"Sat, 06 Jan 2018 02:28:57 GMT","connection":"close","content-length":"315"}
+headers: {"content-type":"text/html; charset=us-ascii","server":"Microsoft-HTTPAPI/2.0","date":"Sat, 06 Jan 2018 02:28:57 GMT","connection":"close","content-length":"315"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:913:24)
+    at e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:692:23
+    at decodeContent (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:532:14)
+    at IncomingMessage.<anonymous> (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:673:7)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'JSONResponseFormatError'
+data: '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n'
+path: '/json/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: 404
+headers: { 'content-type': 'text/html; charset=us-ascii', server: 'Microsoft-HTTPAPI/2.0', date: 'Sat, 06 Jan 2018 02:28:57 GMT', connection: 'close', 'content-length': '315' }
+res: { status: 404, statusCode: 404, headers:  { 'content-type': 'text/html; charset=us-ascii', server: 'Microsoft-HTTPAPI/2.0', date: 'Sat, 06 Jan 2018 02:28:57 GMT', connection: 'close', 'content-length': '315' }, size: 315, aborted: false, rt: 4, keepAliveSocket: false, data: '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n', requestUrls: [ 'http:///json/topstories.json' ], timing: null, remoteAddress: '127.0.0.1', remotePort: 80 }
+pid: 8212
+hostname: PC-20170725NNPX
+
+2018-01-06 10:28:58,207 WARN 8212 [-/127.0.0.1/-/5ms GET /news] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=us-ascii\"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n"), GET http:///json/topstories.json 404 (connected: true, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:80:":1},"requests":{}})
+headers: {"content-type":"text/html; charset=us-ascii","server":"Microsoft-HTTPAPI/2.0","date":"Sat, 06 Jan 2018 02:28:57 GMT","connection":"close","content-length":"315"}
+headers: {"content-type":"text/html; charset=us-ascii","server":"Microsoft-HTTPAPI/2.0","date":"Sat, 06 Jan 2018 02:28:57 GMT","connection":"close","content-length":"315"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:913:24)
+    at e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:692:23
+    at decodeContent (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:532:14)
+    at IncomingMessage.<anonymous> (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:673:7)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'JSONResponseFormatError'
+data: '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n'
+path: '/json/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: 404
+headers: { 'content-type': 'text/html; charset=us-ascii', server: 'Microsoft-HTTPAPI/2.0', date: 'Sat, 06 Jan 2018 02:28:57 GMT', connection: 'close', 'content-length': '315' }
+res: { status: 404, statusCode: 404, headers:  { 'content-type': 'text/html; charset=us-ascii', server: 'Microsoft-HTTPAPI/2.0', date: 'Sat, 06 Jan 2018 02:28:57 GMT', connection: 'close', 'content-length': '315' }, size: 315, aborted: false, rt: 5, keepAliveSocket: false, data: '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n', requestUrls: [ 'http:///json/topstories.json' ], timing: null, remoteAddress: '127.0.0.1', remotePort: 80 }
+pid: 8212
+hostname: PC-20170725NNPX
+
+2018-01-06 10:29:25,983 WARN 8856 [-/127.0.0.1/-/31ms GET /news] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=us-ascii\"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n"), GET http:///json/topstories.json 404 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:80:":1},"requests":{}})
+headers: {"content-type":"text/html; charset=us-ascii","server":"Microsoft-HTTPAPI/2.0","date":"Sat, 06 Jan 2018 02:29:25 GMT","connection":"close","content-length":"315"}
+headers: {"content-type":"text/html; charset=us-ascii","server":"Microsoft-HTTPAPI/2.0","date":"Sat, 06 Jan 2018 02:29:25 GMT","connection":"close","content-length":"315"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:913:24)
+    at e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:692:23
+    at decodeContent (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:532:14)
+    at IncomingMessage.<anonymous> (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:673:7)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'JSONResponseFormatError'
+data: '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n'
+path: '/json/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: 404
+headers: { 'content-type': 'text/html; charset=us-ascii', server: 'Microsoft-HTTPAPI/2.0', date: 'Sat, 06 Jan 2018 02:29:25 GMT', connection: 'close', 'content-length': '315' }
+res: { status: 404, statusCode: 404, headers:  { 'content-type': 'text/html; charset=us-ascii', server: 'Microsoft-HTTPAPI/2.0', date: 'Sat, 06 Jan 2018 02:29:25 GMT', connection: 'close', 'content-length': '315' }, size: 315, aborted: false, rt: 18, keepAliveSocket: false, data: '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n', requestUrls: [ 'http:///json/topstories.json' ], timing: null, remoteAddress: '127.0.0.1', remotePort: 80 }
+pid: 8856
+hostname: PC-20170725NNPX
+
+2018-01-06 10:31:53,946 WARN 8832 [-/127.0.0.1/-/17ms GET /news] nodejs.JSONResponseFormatError: Unexpected token : in JSON at position 8 (data json format: "\"idList\": []"), GET http://192.168.21.80:3000/topstories.json 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"192.168.21.80:3000:":1},"requests":{}})
+headers: {"server":"ecstatic-2.2.1","last-modified":"Sat, 06 Jan 2018 02:31:48 GMT","etag":"\"562949953925185-12-\"2018-01-06T02:31:48.542Z\"\"","cache-control":"max-age=3600","content-length":"12","content-type":"application/json; charset=UTF-8","date":"Sat, 06 Jan 2018 02:31:53 GMT","connection":"keep-alive"}
+headers: {"server":"ecstatic-2.2.1","last-modified":"Sat, 06 Jan 2018 02:31:48 GMT","etag":"\"562949953925185-12-\"2018-01-06T02:31:48.542Z\"\"","cache-control":"max-age=3600","content-length":"12","content-type":"application/json; charset=UTF-8","date":"Sat, 06 Jan 2018 02:31:53 GMT","connection":"keep-alive"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:913:24)
+    at e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:692:23
+    at decodeContent (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:532:14)
+    at IncomingMessage.<anonymous> (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\urllib\lib\urllib.js:673:7)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'JSONResponseFormatError'
+data: '"idList": []'
+path: '/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: 200
+headers: { server: 'ecstatic-2.2.1', 'last-modified': 'Sat, 06 Jan 2018 02:31:48 GMT', etag: '"562949953925185-12-"2018-01-06T02:31:48.542Z""', 'cache-control': 'max-age=3600', 'content-length': '12', 'content-type': 'application/json; charset=UTF-8', date: 'Sat, 06 Jan 2018 02:31:53 GMT', connection: 'keep-alive' }
+res: { status: 200, statusCode: 200, headers:  { server: 'ecstatic-2.2.1', 'last-modified': 'Sat, 06 Jan 2018 02:31:48 GMT', etag: '"562949953925185-12-"2018-01-06T02:31:48.542Z""', 'cache-control': 'max-age=3600', 'content-length': '12', 'content-type': 'application/json; charset=UTF-8', date: 'Sat, 06 Jan 2018 02:31:53 GMT', connection: 'keep-alive' }, size: 12, aborted: false, rt: 9, keepAliveSocket: false, data: '"idList": []', requestUrls: [ 'http://192.168.21.80:3000/topstories.json' ], timing: null, remoteAddress: '192.168.21.80', remotePort: 3000 }
+pid: 8832
+hostname: PC-20170725NNPX
+

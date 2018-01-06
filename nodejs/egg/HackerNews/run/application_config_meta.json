@@ -1,0 +1,248 @@
+{
+  "keys": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js",
+  "middleware": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js",
+  "robot": {
+    "ua": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js"
+  },
+  "view": {
+    "defaultViewEngine": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js",
+    "mapping": {
+      ".tpl": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js"
+    },
+    "root": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "news": {
+    "pageSize": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js",
+    "serverUrl": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.default.js",
+    "cache": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+  "name": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "version": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "description": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "main": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "author": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "license": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "strict": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+      "depth": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "env": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "level": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+    "logging": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+      "port": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+  }
+}
