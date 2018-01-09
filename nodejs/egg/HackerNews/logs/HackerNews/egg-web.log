@@ -342,3 +342,301 @@
 2018-01-06 15:25:53,716 INFO 6164 [egg-security] use dta middleware
 2018-01-06 15:25:53,716 INFO 6164 [egg-security] compose 7 middlewares into one security middleware
 2018-01-06 15:25:53,749 INFO 6164 [egg-watcher:app] watcher start success
+2018-01-08 09:50:13,864 INFO 10048 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 09:50:13,886 INFO 10048 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 09:50:13,886 INFO 10048 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 09:50:13,951 INFO 10048 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 09:50:13,954 INFO 10048 [egg-security] use csrf middleware
+2018-01-08 09:50:13,955 INFO 10048 [egg-security] use methodnoallow middleware
+2018-01-08 09:50:13,955 INFO 10048 [egg-security] use noopen middleware
+2018-01-08 09:50:13,955 INFO 10048 [egg-security] use nosniff middleware
+2018-01-08 09:50:13,956 INFO 10048 [egg-security] use xssProtection middleware
+2018-01-08 09:50:13,956 INFO 10048 [egg-security] use xframe middleware
+2018-01-08 09:50:13,957 INFO 10048 [egg-security] use dta middleware
+2018-01-08 09:50:13,957 INFO 10048 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 09:50:13,980 INFO 10048 [egg-watcher:app] watcher start success
+2018-01-08 09:53:12,153 INFO 7904 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 09:53:12,188 INFO 7904 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 09:53:12,188 INFO 7904 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 09:53:12,249 INFO 7904 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 09:53:12,252 INFO 7904 [egg-security] use csrf middleware
+2018-01-08 09:53:12,253 INFO 7904 [egg-security] use methodnoallow middleware
+2018-01-08 09:53:12,253 INFO 7904 [egg-security] use noopen middleware
+2018-01-08 09:53:12,254 INFO 7904 [egg-security] use nosniff middleware
+2018-01-08 09:53:12,254 INFO 7904 [egg-security] use xssProtection middleware
+2018-01-08 09:53:12,254 INFO 7904 [egg-security] use xframe middleware
+2018-01-08 09:53:12,255 INFO 7904 [egg-security] use dta middleware
+2018-01-08 09:53:12,255 INFO 7904 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 09:53:12,285 INFO 7904 [egg-watcher:app] watcher start success
+2018-01-08 10:19:30,818 INFO 10024 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:19:30,838 INFO 10024 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:19:30,838 INFO 10024 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:19:30,874 INFO 10024 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:19:30,877 INFO 10024 [egg-security] use csrf middleware
+2018-01-08 10:19:30,877 INFO 10024 [egg-security] use methodnoallow middleware
+2018-01-08 10:19:30,878 INFO 10024 [egg-security] use noopen middleware
+2018-01-08 10:19:30,878 INFO 10024 [egg-security] use nosniff middleware
+2018-01-08 10:19:30,878 INFO 10024 [egg-security] use xssProtection middleware
+2018-01-08 10:19:30,879 INFO 10024 [egg-security] use xframe middleware
+2018-01-08 10:19:30,879 INFO 10024 [egg-security] use dta middleware
+2018-01-08 10:19:30,879 INFO 10024 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:19:30,910 INFO 10024 [egg-watcher:app] watcher start success
+2018-01-08 10:20:29,324 INFO 10156 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:20:29,354 INFO 10156 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:20:29,354 INFO 10156 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:20:29,398 INFO 10156 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:20:29,401 INFO 10156 [egg-security] use csrf middleware
+2018-01-08 10:20:29,402 INFO 10156 [egg-security] use methodnoallow middleware
+2018-01-08 10:20:29,402 INFO 10156 [egg-security] use noopen middleware
+2018-01-08 10:20:29,403 INFO 10156 [egg-security] use nosniff middleware
+2018-01-08 10:20:29,403 INFO 10156 [egg-security] use xssProtection middleware
+2018-01-08 10:20:29,403 INFO 10156 [egg-security] use xframe middleware
+2018-01-08 10:20:29,404 INFO 10156 [egg-security] use dta middleware
+2018-01-08 10:20:29,404 INFO 10156 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:20:29,427 INFO 10156 [egg-watcher:app] watcher start success
+2018-01-08 10:39:04,323 INFO 9508 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:39:04,344 INFO 9508 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:39:04,344 INFO 9508 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:39:04,381 INFO 9508 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:39:04,383 INFO 9508 [egg-security] use csrf middleware
+2018-01-08 10:39:04,384 INFO 9508 [egg-security] use methodnoallow middleware
+2018-01-08 10:39:04,384 INFO 9508 [egg-security] use noopen middleware
+2018-01-08 10:39:04,385 INFO 9508 [egg-security] use nosniff middleware
+2018-01-08 10:39:04,385 INFO 9508 [egg-security] use xssProtection middleware
+2018-01-08 10:39:04,385 INFO 9508 [egg-security] use xframe middleware
+2018-01-08 10:39:04,386 INFO 9508 [egg-security] use dta middleware
+2018-01-08 10:39:04,386 INFO 9508 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:39:04,417 INFO 9508 [egg-watcher:app] watcher start success
+2018-01-08 10:39:21,169 INFO 8900 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:39:21,190 INFO 8900 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:39:21,190 INFO 8900 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:39:21,227 INFO 8900 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:39:21,230 INFO 8900 [egg-security] use csrf middleware
+2018-01-08 10:39:21,231 INFO 8900 [egg-security] use methodnoallow middleware
+2018-01-08 10:39:21,232 INFO 8900 [egg-security] use noopen middleware
+2018-01-08 10:39:21,232 INFO 8900 [egg-security] use nosniff middleware
+2018-01-08 10:39:21,233 INFO 8900 [egg-security] use xssProtection middleware
+2018-01-08 10:39:21,233 INFO 8900 [egg-security] use xframe middleware
+2018-01-08 10:39:21,233 INFO 8900 [egg-security] use dta middleware
+2018-01-08 10:39:21,233 INFO 8900 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:39:21,255 INFO 8900 [egg-watcher:app] watcher start success
+2018-01-08 10:40:55,305 INFO 10176 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:40:55,328 INFO 10176 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:40:55,328 INFO 10176 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:40:55,371 INFO 10176 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:40:55,374 INFO 10176 [egg-security] use csrf middleware
+2018-01-08 10:40:55,375 INFO 10176 [egg-security] use methodnoallow middleware
+2018-01-08 10:40:55,376 INFO 10176 [egg-security] use noopen middleware
+2018-01-08 10:40:55,377 INFO 10176 [egg-security] use nosniff middleware
+2018-01-08 10:40:55,378 INFO 10176 [egg-security] use xssProtection middleware
+2018-01-08 10:40:55,378 INFO 10176 [egg-security] use xframe middleware
+2018-01-08 10:40:55,379 INFO 10176 [egg-security] use dta middleware
+2018-01-08 10:40:55,379 INFO 10176 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:40:55,407 INFO 10176 [egg-watcher:app] watcher start success
+2018-01-08 10:40:55,677 INFO 10176 [egg-view-nunjucks] loading templates from ["e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\app\\view"]
+2018-01-08 10:41:02,755 INFO 2092 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:41:02,789 INFO 2092 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:41:02,789 INFO 2092 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:41:02,865 INFO 2092 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:41:02,868 INFO 2092 [egg-security] use csrf middleware
+2018-01-08 10:41:02,869 INFO 2092 [egg-security] use methodnoallow middleware
+2018-01-08 10:41:02,869 INFO 2092 [egg-security] use noopen middleware
+2018-01-08 10:41:02,870 INFO 2092 [egg-security] use nosniff middleware
+2018-01-08 10:41:02,870 INFO 2092 [egg-security] use xssProtection middleware
+2018-01-08 10:41:02,871 INFO 2092 [egg-security] use xframe middleware
+2018-01-08 10:41:02,871 INFO 2092 [egg-security] use dta middleware
+2018-01-08 10:41:02,871 INFO 2092 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:41:02,896 INFO 2092 [egg-watcher:app] watcher start success
+2018-01-08 10:41:03,613 INFO 2092 [egg-view-nunjucks] loading templates from ["e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\app\\view"]
+2018-01-08 10:41:08,436 INFO 9604 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:41:08,463 INFO 9604 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:41:08,463 INFO 9604 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:41:08,516 INFO 9604 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:41:08,518 INFO 9604 [egg-security] use csrf middleware
+2018-01-08 10:41:08,519 INFO 9604 [egg-security] use methodnoallow middleware
+2018-01-08 10:41:08,520 INFO 9604 [egg-security] use noopen middleware
+2018-01-08 10:41:08,520 INFO 9604 [egg-security] use nosniff middleware
+2018-01-08 10:41:08,521 INFO 9604 [egg-security] use xssProtection middleware
+2018-01-08 10:41:08,521 INFO 9604 [egg-security] use xframe middleware
+2018-01-08 10:41:08,521 INFO 9604 [egg-security] use dta middleware
+2018-01-08 10:41:08,521 INFO 9604 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:41:08,544 INFO 9604 [egg-watcher:app] watcher start success
+2018-01-08 10:41:11,066 INFO 9604 [egg-view-nunjucks] loading templates from ["e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\app\\view"]
+2018-01-08 10:42:13,081 INFO 9464 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:42:13,106 INFO 9464 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:42:13,106 INFO 9464 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:42:13,151 INFO 9464 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:42:13,154 INFO 9464 [egg-security] use csrf middleware
+2018-01-08 10:42:13,154 INFO 9464 [egg-security] use methodnoallow middleware
+2018-01-08 10:42:13,155 INFO 9464 [egg-security] use noopen middleware
+2018-01-08 10:42:13,155 INFO 9464 [egg-security] use nosniff middleware
+2018-01-08 10:42:13,155 INFO 9464 [egg-security] use xssProtection middleware
+2018-01-08 10:42:13,156 INFO 9464 [egg-security] use xframe middleware
+2018-01-08 10:42:13,156 INFO 9464 [egg-security] use dta middleware
+2018-01-08 10:42:13,156 INFO 9464 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:42:13,179 INFO 9464 [egg-watcher:app] watcher start success
+2018-01-08 10:42:16,421 INFO 9464 [egg-view-nunjucks] loading templates from ["e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\app\\view"]
+2018-01-08 10:43:09,036 INFO 9556 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:43:09,056 INFO 9556 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:43:09,056 INFO 9556 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:43:09,093 INFO 9556 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:43:09,095 INFO 9556 [egg-security] use csrf middleware
+2018-01-08 10:43:09,096 INFO 9556 [egg-security] use methodnoallow middleware
+2018-01-08 10:43:09,097 INFO 9556 [egg-security] use noopen middleware
+2018-01-08 10:43:09,097 INFO 9556 [egg-security] use nosniff middleware
+2018-01-08 10:43:09,097 INFO 9556 [egg-security] use xssProtection middleware
+2018-01-08 10:43:09,098 INFO 9556 [egg-security] use xframe middleware
+2018-01-08 10:43:09,098 INFO 9556 [egg-security] use dta middleware
+2018-01-08 10:43:09,098 INFO 9556 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:43:09,121 INFO 9556 [egg-watcher:app] watcher start success
+2018-01-08 10:43:10,332 INFO 9556 [egg-view-nunjucks] loading templates from ["e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\app\\view"]
+2018-01-08 10:43:19,353 INFO 7656 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:43:19,373 INFO 7656 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:43:19,373 INFO 7656 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:43:19,409 INFO 7656 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:43:19,411 INFO 7656 [egg-security] use csrf middleware
+2018-01-08 10:43:19,412 INFO 7656 [egg-security] use methodnoallow middleware
+2018-01-08 10:43:19,413 INFO 7656 [egg-security] use noopen middleware
+2018-01-08 10:43:19,413 INFO 7656 [egg-security] use nosniff middleware
+2018-01-08 10:43:19,413 INFO 7656 [egg-security] use xssProtection middleware
+2018-01-08 10:43:19,414 INFO 7656 [egg-security] use xframe middleware
+2018-01-08 10:43:19,414 INFO 7656 [egg-security] use dta middleware
+2018-01-08 10:43:19,414 INFO 7656 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:43:19,438 INFO 7656 [egg-watcher:app] watcher start success
+2018-01-08 10:43:20,942 INFO 7656 [egg-view-nunjucks] loading templates from ["e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\app\\view"]
+2018-01-08 10:43:34,783 INFO 9936 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:43:34,827 INFO 9936 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:43:34,827 INFO 9936 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:43:34,891 INFO 9936 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:43:34,896 INFO 9936 [egg-security] use csrf middleware
+2018-01-08 10:43:34,901 INFO 9936 [egg-security] use methodnoallow middleware
+2018-01-08 10:43:34,903 INFO 9936 [egg-security] use noopen middleware
+2018-01-08 10:43:34,906 INFO 9936 [egg-security] use nosniff middleware
+2018-01-08 10:43:34,907 INFO 9936 [egg-security] use xssProtection middleware
+2018-01-08 10:43:34,909 INFO 9936 [egg-security] use xframe middleware
+2018-01-08 10:43:34,910 INFO 9936 [egg-security] use dta middleware
+2018-01-08 10:43:34,910 INFO 9936 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:43:34,947 INFO 9936 [egg-watcher:app] watcher start success
+2018-01-08 10:43:35,724 INFO 9212 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:43:35,757 INFO 9212 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:43:35,757 INFO 9212 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:43:35,820 INFO 9212 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:43:35,824 INFO 9212 [egg-security] use csrf middleware
+2018-01-08 10:43:35,825 INFO 9212 [egg-security] use methodnoallow middleware
+2018-01-08 10:43:35,826 INFO 9212 [egg-security] use noopen middleware
+2018-01-08 10:43:35,827 INFO 9212 [egg-security] use nosniff middleware
+2018-01-08 10:43:35,827 INFO 9212 [egg-security] use xssProtection middleware
+2018-01-08 10:43:35,829 INFO 9212 [egg-security] use xframe middleware
+2018-01-08 10:43:35,830 INFO 9212 [egg-security] use dta middleware
+2018-01-08 10:43:35,830 INFO 9212 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:43:35,863 INFO 9212 [egg-watcher:app] watcher start success
+2018-01-08 10:43:37,195 INFO 8260 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:43:37,217 INFO 8260 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:43:37,217 INFO 8260 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:43:37,255 INFO 8260 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:43:37,257 INFO 8260 [egg-security] use csrf middleware
+2018-01-08 10:43:37,257 INFO 8260 [egg-security] use methodnoallow middleware
+2018-01-08 10:43:37,258 INFO 8260 [egg-security] use noopen middleware
+2018-01-08 10:43:37,258 INFO 8260 [egg-security] use nosniff middleware
+2018-01-08 10:43:37,259 INFO 8260 [egg-security] use xssProtection middleware
+2018-01-08 10:43:37,260 INFO 8260 [egg-security] use xframe middleware
+2018-01-08 10:43:37,260 INFO 8260 [egg-security] use dta middleware
+2018-01-08 10:43:37,260 INFO 8260 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:43:37,284 INFO 8260 [egg-watcher:app] watcher start success
+2018-01-08 10:43:38,774 INFO 8260 [egg-view-nunjucks] loading templates from ["e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\app\\view"]
+2018-01-08 10:45:51,883 INFO 7348 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:45:51,904 INFO 7348 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:45:51,904 INFO 7348 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:45:51,944 INFO 7348 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:45:51,947 INFO 7348 [egg-security] use csrf middleware
+2018-01-08 10:45:51,948 INFO 7348 [egg-security] use methodnoallow middleware
+2018-01-08 10:45:51,948 INFO 7348 [egg-security] use noopen middleware
+2018-01-08 10:45:51,948 INFO 7348 [egg-security] use nosniff middleware
+2018-01-08 10:45:51,949 INFO 7348 [egg-security] use xssProtection middleware
+2018-01-08 10:45:51,949 INFO 7348 [egg-security] use xframe middleware
+2018-01-08 10:45:51,949 INFO 7348 [egg-security] use dta middleware
+2018-01-08 10:45:51,949 INFO 7348 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:45:51,973 INFO 7348 [egg-watcher:app] watcher start success
+2018-01-08 10:45:55,496 INFO 7348 [egg-view-nunjucks] loading templates from ["e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\app\\view"]
+2018-01-08 10:46:06,221 INFO 7732 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:46:06,242 INFO 7732 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:46:06,242 INFO 7732 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:46:06,285 INFO 7732 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:46:06,287 INFO 7732 [egg-security] use csrf middleware
+2018-01-08 10:46:06,288 INFO 7732 [egg-security] use methodnoallow middleware
+2018-01-08 10:46:06,289 INFO 7732 [egg-security] use noopen middleware
+2018-01-08 10:46:06,289 INFO 7732 [egg-security] use nosniff middleware
+2018-01-08 10:46:06,289 INFO 7732 [egg-security] use xssProtection middleware
+2018-01-08 10:46:06,290 INFO 7732 [egg-security] use xframe middleware
+2018-01-08 10:46:06,290 INFO 7732 [egg-security] use dta middleware
+2018-01-08 10:46:06,290 INFO 7732 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:46:06,311 INFO 7732 [egg-watcher:app] watcher start success
+2018-01-08 10:46:07,251 INFO 7732 [egg-view-nunjucks] loading templates from ["e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\app\\view"]
+2018-01-08 10:46:23,036 INFO 10120 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:46:23,060 INFO 10120 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:46:23,060 INFO 10120 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:46:23,097 INFO 10120 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:46:23,099 INFO 10120 [egg-security] use csrf middleware
+2018-01-08 10:46:23,100 INFO 10120 [egg-security] use methodnoallow middleware
+2018-01-08 10:46:23,100 INFO 10120 [egg-security] use noopen middleware
+2018-01-08 10:46:23,101 INFO 10120 [egg-security] use nosniff middleware
+2018-01-08 10:46:23,101 INFO 10120 [egg-security] use xssProtection middleware
+2018-01-08 10:46:23,101 INFO 10120 [egg-security] use xframe middleware
+2018-01-08 10:46:23,102 INFO 10120 [egg-security] use dta middleware
+2018-01-08 10:46:23,102 INFO 10120 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:46:23,127 INFO 10120 [egg-watcher:app] watcher start success
+2018-01-08 10:46:23,521 INFO 10120 [egg-view-nunjucks] loading templates from ["e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\app\\view"]
+2018-01-08 10:46:27,666 INFO 8148 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:46:27,690 INFO 8148 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:46:27,690 INFO 8148 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:46:27,726 INFO 8148 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:46:27,728 INFO 8148 [egg-security] use csrf middleware
+2018-01-08 10:46:27,729 INFO 8148 [egg-security] use methodnoallow middleware
+2018-01-08 10:46:27,729 INFO 8148 [egg-security] use noopen middleware
+2018-01-08 10:46:27,729 INFO 8148 [egg-security] use nosniff middleware
+2018-01-08 10:46:27,730 INFO 8148 [egg-security] use xssProtection middleware
+2018-01-08 10:46:27,730 INFO 8148 [egg-security] use xframe middleware
+2018-01-08 10:46:27,730 INFO 8148 [egg-security] use dta middleware
+2018-01-08 10:46:27,730 INFO 8148 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:46:27,754 INFO 8148 [egg-watcher:app] watcher start success
+2018-01-08 10:46:28,462 INFO 8148 [egg-view-nunjucks] loading templates from ["e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\app\\view"]
+2018-01-08 10:46:31,278 INFO 6532 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:46:31,298 INFO 6532 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:46:31,298 INFO 6532 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:46:31,337 INFO 6532 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:46:31,340 INFO 6532 [egg-security] use csrf middleware
+2018-01-08 10:46:31,341 INFO 6532 [egg-security] use methodnoallow middleware
+2018-01-08 10:46:31,342 INFO 6532 [egg-security] use noopen middleware
+2018-01-08 10:46:31,342 INFO 6532 [egg-security] use nosniff middleware
+2018-01-08 10:46:31,343 INFO 6532 [egg-security] use xssProtection middleware
+2018-01-08 10:46:31,344 INFO 6532 [egg-security] use xframe middleware
+2018-01-08 10:46:31,344 INFO 6532 [egg-security] use dta middleware
+2018-01-08 10:46:31,344 INFO 6532 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:46:31,370 INFO 6532 [egg-watcher:app] watcher start success
+2018-01-08 10:46:50,812 INFO 9340 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:46:50,841 INFO 9340 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:46:50,841 INFO 9340 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:46:50,882 INFO 9340 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:46:50,885 INFO 9340 [egg-security] use csrf middleware
+2018-01-08 10:46:50,885 INFO 9340 [egg-security] use methodnoallow middleware
+2018-01-08 10:46:50,886 INFO 9340 [egg-security] use noopen middleware
+2018-01-08 10:46:50,886 INFO 9340 [egg-security] use nosniff middleware
+2018-01-08 10:46:50,886 INFO 9340 [egg-security] use xssProtection middleware
+2018-01-08 10:46:50,887 INFO 9340 [egg-security] use xframe middleware
+2018-01-08 10:46:50,887 INFO 9340 [egg-security] use dta middleware
+2018-01-08 10:46:50,887 INFO 9340 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:46:50,911 INFO 9340 [egg-watcher:app] watcher start success
+2018-01-08 10:47:19,564 INFO 2252 [egg:logger] init all loggers with options: {"dir":"e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\logs\\HackerNews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"HackerNews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-01-08 10:47:19,586 INFO 2252 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-01-08 10:47:19,586 INFO 2252 [egg-schedule]: register schedule e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-01-08 10:47:19,625 INFO 2252 [egg-static] starting static serve /public/ -> e:\mygit\practice\nodejs\egg\HackerNews\app\public
+2018-01-08 10:47:19,628 INFO 2252 [egg-security] use csrf middleware
+2018-01-08 10:47:19,629 INFO 2252 [egg-security] use methodnoallow middleware
+2018-01-08 10:47:19,629 INFO 2252 [egg-security] use noopen middleware
+2018-01-08 10:47:19,630 INFO 2252 [egg-security] use nosniff middleware
+2018-01-08 10:47:19,630 INFO 2252 [egg-security] use xssProtection middleware
+2018-01-08 10:47:19,631 INFO 2252 [egg-security] use xframe middleware
+2018-01-08 10:47:19,631 INFO 2252 [egg-security] use dta middleware
+2018-01-08 10:47:19,631 INFO 2252 [egg-security] compose 7 middlewares into one security middleware
+2018-01-08 10:47:19,653 INFO 2252 [egg-watcher:app] watcher start success
+2018-01-08 10:51:42,155 INFO 2252 [egg-view-nunjucks] loading templates from ["e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\app\\view"]

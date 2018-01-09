@@ -79,3 +79,34 @@ res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 501
 pid: 9836
 hostname: PC-20170725NNPX
 
+2018-01-08 10:39:35,770 ERROR 8900 [-/127.0.0.1/-/1010ms GET /news] nodejs.RequestError: connect ECONNREFUSED 192.168.21.80:3000 (req "error"), GET http://192.168.21.80:3000/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"192.168.21.80:3000:":1},"requests":{}})
+headers: {}
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '192.168.21.80'
+port: 3000
+name: 'RequestError'
+data: undefined
+path: '/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 1002, keepAliveSocket: false, data: undefined, requestUrls: [ 'http://192.168.21.80:3000/topstories.json' ], timing: null, remoteAddress: '', remotePort: '' }
+pid: 8900
+hostname: PC-20170725NNPX
+
+2018-01-08 10:40:05,796 ERROR 8900 [-/127.0.0.1/-/29ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/list.tpl from e:\mygit\practice\nodejs\egg\HackerNews\app\view
+    at Map.resolve (e:\mygit\practice\nodejs\egg\HackerNews\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 8900
+hostname: PC-20170725NNPX
+

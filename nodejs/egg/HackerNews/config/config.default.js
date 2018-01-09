@@ -18,9 +18,10 @@ module.exports = appInfo => {
   };
   config.view = {
     defaultViewEngine: 'nunjucks',
-    mapping: {
-      '.tpl': 'nunjucks',
-    },
+    // defaultExtension: '.html',
+    // mapping: {
+    //   '.html': 'nunjucks',
+    // },
   };
 
   config.news = {
@@ -28,6 +29,12 @@ module.exports = appInfo => {
     serverUrl: 'http://192.168.21.80:3000',
   };
 
-
+  config.cluster = {
+    listen: {
+      port: 7002,
+      hostname: '127.0.0.1',
+      // path: '/var/run/egg.sock',
+    }
+  }
   return config;
 };

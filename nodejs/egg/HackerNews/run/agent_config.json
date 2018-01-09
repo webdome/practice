@@ -241,12 +241,25 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 7001,
-        "hostname": ""
+        "port": 7002,
+        "hostname": "127.0.0.1"
       }
     },
     "clusterClient": {
       "responseTimeout": 60000
+    },
+    "middleware": [
+      "robot"
+    ],
+    "robot": {
+      "ua": [
+        {},
+        {}
+      ]
+    },
+    "news": {
+      "pageSize": 5,
+      "serverUrl": "http://192.168.21.80:3000"
     },
     "coreMiddlewares": [
       "meta",
@@ -255,8 +268,12 @@
       "bodyParser",
       "overrideMethod"
     ],
-    "appMiddlewares": [],
-    "appMiddleware": []
+    "appMiddlewares": [
+      "robot"
+    ],
+    "appMiddleware": [
+      "robot"
+    ]
   },
   "plugins": {
     "session": {

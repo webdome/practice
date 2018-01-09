@@ -6,16 +6,21 @@
   },
   "view": {
     "defaultViewEngine": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js",
-    "mapping": {
-      ".tpl": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js"
-    },
     "root": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-view\\config\\config.default.js",
     "cache": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-view\\config\\config.default.js"
+    "defaultExtension": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-view\\config\\config.default.js"
   },
   "news": {
     "pageSize": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js",
     "serverUrl": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js"
+  },
+  "cluster": {
+    "listen": {
+      "port": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js",
+      "hostname": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\config\\config.default.js",
+      "path": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
+    }
   },
   "session": {
     "maxAge": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg-session\\config\\config.default.js",
@@ -235,13 +240,6 @@
   },
   "coreMiddleware": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
   "workerStartTimeout": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
-  "cluster": {
-    "listen": {
-      "path": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
-      "port": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
-    }
-  },
   "clusterClient": {
     "responseTimeout": "e:\\mygit\\practice\\nodejs\\egg\\HackerNews\\node_modules\\egg\\config\\config.default.js"
   }
