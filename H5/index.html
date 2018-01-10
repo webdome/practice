@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    html,body{
+      width: 100%;
+      height: 100%;
+      background-color: #ddd;
+      /* background: #ccc url(./pic.jpg) no-repeat center; */
+      background-size: 100% 100%;
+    }
+    #container {
+      /* position: absolute; */
+      /* top: 50%; */
+      /* left: 50%; */
+      /* margin-left: -375px; */
+      /* margin-top: -667px; */
+      width: 750px;
+      height: 1334px;
+      margin: 0 auto;
+      overflow: hidden;
+      border: 2px solid red;
+      box-sizing: border-box;
+    }
+    .ele-1{
+      width: 750px;
+      height: 1334px;
+      background-color: #ccc;
+      /* background: #ccc url(./pic.jpg) no-repeat center; */
+      /* background-size: 100% 100%; */
+    }
+  </style>
+  <script>
+    function setScale() {
+      // console.log(window.top !== window);
+      if (window.top !== window) {
+        return;
+      }
+      var pageScale = 1;
+      var width = document.documentElement.clientWidth || 750;
+      var height = document.documentElement.clientHeight || 1334;
+      if (width / height >= 750 / 1334) {
+        pageScale = height / 1334;
+      } else {
+        pageScale = width / 750;
+      }
+      var content = 'width=device-width, initial-scale=' + pageScale + ', maximum-scale=' + pageScale +
+        ',minimum-scale=' + pageScale + ', user-scalable=no';
+      document.querySelector('meta[name="viewport"]').setAttribute('content', content);
+      console.log(content);
+    }
+    setScale()
+  </script>
+</head>
+
+<body>
+  <div id="container">
+    <div class="ele-1"></div>
+  </div>
+  <script src="//eruda.liriliri.io/eruda.min.js"></script>
+  <script>
+    eruda.init();
+  </script>
+</body>
+
+</html>
