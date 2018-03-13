@@ -1,0 +1,25 @@
+{
+  "name": "my-app",
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "8888"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "analyze": "nuxt build --analyze",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "normalize.css": "^8.0.0",
+    "nuxt": "^1.4.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7"
+  }
+}

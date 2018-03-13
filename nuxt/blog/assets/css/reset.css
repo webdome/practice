@@ -1,0 +1,23 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li, img, textarea, input, button, select, option {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+html, body {
+  font-family: DINRegular,-apple-system,BlinkMacSystemFont,PingFang SC,Helvetica Neue,Hiragino Sans GB,Segoe UI,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,sans-serif;
+  color: #333;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
