@@ -1,11 +1,32 @@
 <template>
-  <Table border :columns="columns7" :data="data6"></Table>
+  <div>
+    <div class="oprate">
+      <Button type="info" class="add-btn" @click="add">Add</Button>
+    </div>
+    <Table 
+      border 
+      :columns="columns" 
+      :data="datas">
+    </Table>
+    <Modal
+      v-model="modalShow"
+      :title="formData.id?'menu edit':'menu add'"
+      :loading="true"
+      :mask-closable="false"
+      :closable="false"
+      @on-ok="ok">
+      <Input v-model="value" placeholder="Enter menu name..." />
+    </Modal>
+  </div>
 </template>
 <script>
 export default {
   data() {
     return {
-      columns7: [
+      value: '',
+      modalShow: false,
+      formData: {},
+      columns: [
         {
           title: "NAME",
           key: "name"
@@ -37,7 +58,7 @@ export default {
                   },
                   on: {
                     click: () => {
-                      this.edit(params.index);
+                      this.edit(params.row);
                     }
                   }
                 },
@@ -52,7 +73,7 @@ export default {
                   },
                   on: {
                     click: () => {
-                      this.remove(params.index);
+                      this.remove(params.row);
                     }
                   }
                 },
@@ -62,8 +83,9 @@ export default {
           }
         }
       ],
-      data6: [
+      datas: [
         {
+          id: 1,
           name: "HOME",
           pv: 18,
           uv: 20
@@ -72,8 +94,38 @@ export default {
     };
   },
   methods: {
-    edit(index) {},
-    remove(index) {}
+    add() {
+      this.formData.id = 0;
+      this.modalShow = true;
+    },
+    edit(row) {
+      this.formData.id = row.id;
+      this.modalShow = true;
+    },
+    remove(row) {
+      this.formData.id = row.id;
+      this.$Modal.confirm({
+        title: 'menu delete',
+        content: '<p>warning! this menu will be delete</p>',
+        onOk: () => {
+          this.$Message.info('Clicked ok');
+        }
+      });
+    },
+    ok() {
+      setTimeout(() => {
+        this.modalShow = false;
+      }, 2000);
+    }
   }
 };
 </script>
+<style lang="scss" scoped>
+.oprate{
+  height: 40px;
+  line-height: 40px;
+}
+.add-btn{
+  float: right;
+}
+</style>
