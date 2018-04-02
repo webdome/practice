@@ -1,7 +1,7 @@
 const MongoClient = require('mongodb').MongoClient
 const ObjectId = require('mongodb').ObjectID
 // const assert = require('assert')
-const url = 'mongodb://localhost:27017/test';
+const url = 'mongodb://readwrite:readwrite@localhost:27017/test';
 
 
 exports.login = async (ctx,next)=>{

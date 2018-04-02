@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  ul= 'already'
+  ul
+    each val, index in list
+      li= val.username+' '+val.content
