@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-static": "^4.0.2",
+    "microkid": "^0.0.3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "microkid",
+  "version": "0.0.3",
+  "keywords": [
+    "utils"
+  ],
+  "description": "microkid utils",
+  "main": "main.js",
+  "scripts": {
+
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    
+  },
+  "author": "410487636@qq.com",
+  "license": "ISC"
+}
