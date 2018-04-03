@@ -15,10 +15,10 @@ var ListSchema = new Schema({
     default: ''
   }
 })
-var listSchema = mongoose.model('list',ListSchema)
+var List = mongoose.model('list',ListSchema)
 
 router.get('/list', async (ctx, next) => {
-  var res = await listSchema.find({})
+  var res = await List.find({})
   ctx.body = res
 })
 
