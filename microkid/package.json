@@ -6,15 +6,13 @@
   ],
   "description": "microkid utils",
   "main": "main.js",
-  "scripts": {
-
-  },
+  "scripts": {},
   "dependencies": {
-    
+    "express": "^4.16.3",
+    "qr-image": "^3.2.0",
+    "svg-captcha": "^1.3.11"
   },
-  "devDependencies": {
-    
-  },
+  "devDependencies": {},
   "author": "410487636@qq.com",
   "license": "ISC"
 }
