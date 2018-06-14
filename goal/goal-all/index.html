@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>拜托了,帮我进个球</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=640,minimum-scale=1.0,user-scalable=no">
+  <meta itemprop="name" content="欧洲杯不是终点,我们为荣誉而战">
+  <meta itemprop="description" content="欧洲杯最热H5足球游戏<拜托了帮我进个球>!">
+  <meta itemprop="image" content="http://mediaball.help2x.com/resource/share.jpg">
+  <script>
+    (function () {
+      var u = navigator.userAgent.toLocaleLowerCase();
+      if (u.indexOf("android") >= 0 || u.indexOf("linux") >= 0) {
+        document.write('<meta name="viewport" content="width=640">')
+      } else {
+        document.write('<meta name="viewport" content="width=device-width,user-scalable=no">')
+      }
+    })();
+    var userinfo = {
+      name: "sss",
+      phoneNumber: "1222222222",
+      nickname: "",
+      playchange: 0,
+      wechat: false
+    };
+    // var userinfo=JSON.parse('{$userinfo}');
+    userinfo.nickname = decodeURI(userinfo.nickname);
+    userinfo.playchange = 0;
+    var isMusicPlaying = true;
+  </script>
+  <!-- <script src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.min.js"></script> -->
+  <script src="libs/core.min.js"></script>
+  <script src="src/Main.js"></script>
+  <style>
+    html {
+      width: 100%;
+    }
+
+    body {
+      width: 100%;
+      margin: 0px;
+      border: 0px;
+      overflow: hidden;
+      position: absolute;
+      background-color: #00B9ED;
+    }
+
+    input {
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="flash2xDiv" style="line-height:0;font-size:0"></div>
+  <!--<img id="music_btn" class="music_btn" display="none" src="resource/musicon.png"/>-->
+  <!--<audio id="daojishi" src="resource/daojishi.mp3" preload="auto" hidden="hidden"></audio>-->
+  <!--<audio id="button" src="resource/button.mp3" preload="auto" hidden="hidden"></audio>-->
+  <audio id="bgSound" src="resource/bgSound.mp3" preload="auto" autoplay hidden="hidden"></audio>
+</body>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script>
+<script>
+  function sendCount(id, msg) {
+    // 统计
+  }
+</script>
+<script>
+  // document.addEventListener("WeixinJSBridgeReady", function () {
+  //   console.log('WeixinJSBridgeReady');
+  //   wx.miniProgram.postMessage({data: 123});
+  // });
+</script>
+
+</html>

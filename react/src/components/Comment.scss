@@ -1,0 +1,11 @@
+.one{
+  border: 1px dashed #ccc;
+  margin: 10px 0;
+  h4{
+    color: #999;
+  }
+}
+
+:global(#app){
+  color: #fff;
+}

@@ -4,3 +4,5 @@ node_modules
 dist
 .cache
 .vs
+.idea
+.DS_Store
