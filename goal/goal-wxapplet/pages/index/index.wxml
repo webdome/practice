@@ -1,0 +1,3 @@
+<view class='container'>
+  <navigator class="link" url="/pages/goal/index">去踢球</navigator>
+</view>
